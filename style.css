@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 10px ;
+}
+h2{
+    text-align: center;
+    margin-top: 10px ;
+}
+html{
+    scroll-snap-type: y mandatory;
+}
+html::-webkit-scrollbar{
+    width: 0.8vw;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(66, 66, 66);
+    border-radius: 20px;
+}
+html::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-margin-top: 50px;
+}
+nav {
+    height: 50px;
+    background-color: black;
+    color: white; 
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* nav div{
+    display: flex;
+    margin-inline-start: auto;
+    justify-content: space-between;
+    padding: 20px;
+
+} */
+
+#page1{
+    background-color: skyblue;
+}
+#page2{
+    background-color: rgb(245, 245, 13);
+}
+#page3{
+    background-color: rgb(231, 117, 24);
+}
+#page4{
+    background-color: rgb(68, 22, 125);
+}
+footer{
+    text-align: center;
+    background-color:beige;
+}
